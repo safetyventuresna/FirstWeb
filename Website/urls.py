@@ -1,5 +1,5 @@
 #from django.conf.urls import path
-from django.urls import path
+from django.conf.urls import url
 from Website import views
 
 
@@ -21,5 +21,5 @@ Including another URLconf
 
 
 urlpatterns = [
-    path('',views.index,name='views'),
+    url(r'^$',views.index,name='views'),
 ]
