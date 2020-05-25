@@ -36,7 +36,7 @@ STATIC_DIR = os.path.join(BASE_DIR,"static")
 SECRET_KEY = '60b78d4e25b7d3004be6b253908f415e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # Discover our IP address
 
