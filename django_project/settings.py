@@ -16,7 +16,7 @@ import netifaces
 
 
 def ip_addresses():
-    ip_list = ['.safetyventurecompany.com']
+    ip_list = []
     for interface in netifaces.interfaces():
         addrs = netifaces.ifaddresses(interface)
         for x in (netifaces.AF_INET, netifaces.AF_INET6):
